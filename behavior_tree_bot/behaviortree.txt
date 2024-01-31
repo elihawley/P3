@@ -1,0 +1,11 @@
+Selector: High Level Ordering of Strategies
+| Sequence: Crush
+| | Check: if_crushed_opponent
+| | Action: attack_weakest_enemy_planet_with_best_safe_planet
+| Sequence: Grow
+| | Check: if_at_growth_advantage
+| | Action: wait_and_grow
+| Sequence: Invade
+| | Check: time_to_invade_mvp
+| | Action: strike_mvp
+| Action: reinforce_base_with_best_other

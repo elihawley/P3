@@ -1,0 +1,1017 @@
+INFO:root:
+Selector: High Level Ordering of Strategies
+| Sequence: Crush
+| | Check: if_crushed_opponent
+| | Action: attack_weakest_enemy_planet_with_best_safe_planet
+| Sequence: Grow
+| | Check: if_at_growth_advantage
+| | Action: wait_and_grow
+| Sequence: Invade
+| | Check: time_to_invade_mvp
+| | Action: strike_mvp
+| Action: reinforce_base_with_best_other
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 12 60.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 18 27.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 18 13.799999999999999
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 18 12.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 18 13.799999999999999
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:18 1 4.6000000000000005
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:18 17 20.4
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:18 1 3.2
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 2 28.799999999999997
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:18 11 17.4
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 11 18.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 11 27.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:18 11 18.599999999999998
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:18 12 3.0
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:18 12 2.8000000000000003
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 11 27.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 11 17.4
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:18 12 2.6
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 11 13.2
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 17 22.8
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:11 1 1.4000000000000001
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 17 14.399999999999999
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Failure
+DEBUG:root:Result: Sequence: Invade -> Failure
+DEBUG:root:Executing:Action: reinforce_base_with_best_other
+DEBUG:root:Order:11 2 3.2
+DEBUG:root:Result: Action: reinforce_base_with_best_other -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 17 21.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 17 27.599999999999998
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:2 17 19.8
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 17 25.2
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 17 28.2
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 17 30.599999999999998
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 17 15.6
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 0 22.2
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 0 45.6
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 0 15.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:17 0 45.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:2 9 37.199999999999996
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:18 6 28.2
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 6 34.199999999999996
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:17 9 70.8
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:17 6 39.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 5 36.6
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:2 9 33.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:0 5 54.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:12 6 36.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:1 6 34.8
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:0 6 54.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:0 6 23.4
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:9 5 60.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:11 5 39.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:18 5 27.0
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Crush
+DEBUG:root:Executing:Check: if_crushed_opponent
+DEBUG:root:Result: Check: if_crushed_opponent -> Failure
+DEBUG:root:Result: Sequence: Crush -> Failure
+DEBUG:root:Executing:Sequence: Grow
+DEBUG:root:Executing:Check: if_at_growth_advantage
+DEBUG:root:Result: Check: if_at_growth_advantage -> Failure
+DEBUG:root:Result: Sequence: Grow -> Failure
+DEBUG:root:Executing:Sequence: Invade
+DEBUG:root:Executing:Check: time_to_invade_mvp
+DEBUG:root:Result: Check: time_to_invade_mvp -> Success
+DEBUG:root:Executing:Action: strike_mvp
+DEBUG:root:Order:2 5 40.199999999999996
+DEBUG:root:Result: Action: strike_mvp -> Success
+DEBUG:root:Result: Sequence: Invade -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
